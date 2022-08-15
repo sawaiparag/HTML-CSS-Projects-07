@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+   /* margin-top: 15px;
+    margin-left: 20px;*/
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    gap: 10px;
+}
+nav .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+  
+}
+
+nav .nav-items .active-item{
+    font-style: Bold;
+    color: #ffcc25;
+}
+.intro-section{
+    margin-left: 30px;
+
+}
+.intro-section .left-section {
+    padding: 30px 10px;
+  }
+
+  .intro-section .left-section h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-section h1 {
+    font-family: "Fredoka One", cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: #000000;
+}
+
+
+.sub-headlines{
+    font-style: bold;
+    font-weight: 900;
+    padding: 40px 10px 40px 100px;
+}
+
+.left-section .sub-headlines .sub-headline img {
+    background: #fe5e35;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: -70px;
+}
+.left-section .sub-headlines .sub-headline {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin: 20px 20px;
+    gap: 20px;
+  }
+
+.text{
+    width: 40%;
+    font-size: medium;
+}
+.action-btns{
+    font-style: bold;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.action-btn{
+    background-color: #fd2c25;
+    border-radius: 25px;
+    border-color: #ffffff;
+    padding: 1.0em 1.8em;
+    color: #ffffff;
+    font-size: medium;
+    outline: none;
+
+}
+
+.intro-section .right-section {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -700px;
+    margin-left: 600px;
+}
+.right-section .discount {
+    position: absolute;
+    width: 30%;
+    bottom: 30%;
+    left: -50px;
+}
+  
+.right-section .discount-content {
+    position: absolute;
+    bottom: 37%;
+    left: -10px;
+    text-align: center;
+}
+  
+.right-section .discount-content h4 {
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 0px;
+}
+  
+.right-section .discount-content h1 {
+    font-family: "Fredoka One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+    margin: 0px;
+}
+  
+.right-section img {
+    width: 100%;
+}
+  
+.right-section .dots {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+.dots .dot {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+  
+.dots .black-dot {
+    background: #000000;
+}
+.dots .tomato-dot {
+    background: #fe5e35;
+}
+.dots .yellow-dot {
+    background: #fbd104;
+}
+  
+
+
